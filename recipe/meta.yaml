@@ -1,13 +1,13 @@
 {% set name = "dash-mp-components" %}
-{% set version = "0.4.47" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dash_mp_components-{{ version }}.tar.gz
-  sha256: 68de4ccc543f3ca58ed76fb2c6a6ef797c464bf8f55c93f2c42b75b6ad5bc216
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dash_mp_components-{{ version }}.tar.gz
+  sha256: 803fd3caa6fb8dc1a49450a924955ef6e0a15f405b11274b99f7dd4480ca6c2f
 
 build:
   noarch: python
